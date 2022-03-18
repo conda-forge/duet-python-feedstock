@@ -1,5 +1,5 @@
 {% set name = "duet" %}
-{% set version = "0.2.4" %}
+{% set version = "0.2.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f43285068dbdc39b9e732df349cd3f3c3a618b0624309e3976beee095eab12a2
+  sha256: d18acfe71c68f3346852f4933807398ced901cec3105b816e0208964e467e844
 
 build:
   number: 0
