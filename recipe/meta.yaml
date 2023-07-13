@@ -1,5 +1,5 @@
 {% set name = "duet" %}
-{% set version = "0.2.7" %}
+{% set version = "0.2.8" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 152d9b34db363b6b2322e48c756a8bb1832f0a704319941ff974d9ffee63c053
+  sha256: b60ac9e11e885e2a7c4366857cc6036dbe001fc9b6bddb027e2dbd7dedf40906
 
 build:
   number: 0
@@ -21,7 +21,7 @@ requirements:
     - python >=3.7
   run:
     - python >=3.7
-    - typing_extensions
+    -  typing_extensions >=3.10.0
 
 test:
   imports:

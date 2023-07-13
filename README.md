@@ -1,11 +1,11 @@
-About duet-python
-=================
+About duet-python-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/duet-python-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/google/duet
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/duet-python-feedstock/blob/main/LICENSE.txt)
 
 Summary: A simple future-based async library for python.
 
